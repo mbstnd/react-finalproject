@@ -1,0 +1,84 @@
+header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.header-image {
+    width: 160px;
+    max-width: 150;
+}
+
+.pokemones {
+    min-height: 100vh;
+}
+
+.pokemones h2 {
+    padding: 1.5rem 0;
+    background:  #2a77c59a;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.pokemones ul {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.inputs {
+    margin-bottom: 2rem;
+
+}
+
+.elementInput {
+    width: 50%;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.elementInput .nombrePokemones {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    outline: none   ;
+    border: none;
+    background-color: rgb(227, 227, 227);
+    color: black;
+}
+
+.nombrePokemones::placeholder {
+    color:black;
+}
+
+
+input {
+    padding: 0.5rem 1rem;
+    width: 350px; 
+    margin-right: 1rem;
+}
+
+.elementInput select {
+    padding: 0.5rem 1rem;
+    width: 250px;
+    cursor: pointer;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-left: 3px;
+    border: none;
+    outline: none;
+    background-color:  #228bf39a;
+    color: #ffff;
+}
+
+.app-footer {
+    background-color: #263238;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
